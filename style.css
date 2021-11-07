@@ -1,0 +1,378 @@
+/*
+
+/* Colores:
+Coral: #e29578
+Verde: #e98786
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*************************************************
+                        Index
+*************************************************/
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{ 
+    padding: 1rem;
+    }
+
+ul {
+    list-style: none;
+    text-align: center;  
+    }
+li{
+    display: inline-block;
+    width:auto; 
+    font-size: 1rem;
+    }
+li a {
+    text-decoration-line: none; 
+    padding: 1rem 2rem;
+    color: #000;
+    }
+a:visited{
+    color: #000;
+    }
+a:hover{
+    color:#a6c7b6 ;
+    }
+
+.hero {
+    background-image: url("Imagenes/hero.jpg");
+    background-color: rgba(100, 100, 100, 0.6);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0rem;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.45);
+    margin: 2rem 0rem;
+    }
+.hero h1{
+    padding-left: 2rem;
+    }
+
+    /*****Tarjetas*****/
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    padding: 2rem; 
+    margin: 0.3rem;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.45); 
+}
+.card h2{
+    text-align: center;
+}
+.card img{
+    max-width:90%;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+/********************************************** 
+                Nutrición
+***********************************************/
+.page-title{
+    background-image: url("Imagenes/bananas.jpg");
+    background-color: rgba(100, 100, 100, 0.5);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0rem;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.45);
+    margin: 2rem 0rem;
+}
+.page-title h1{
+    margin-left: 2rem;
+}
+.container-article{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    justify-content: center;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    padding: 2rem; 
+    margin: 0.3rem;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.45);  
+    justify-content: center;
+    align-items: center;
+    }
+.article h2{
+    text-align: center;
+}
+.article p{
+    left: 2rem;
+    bottom: 1rem;
+    text-align: justify;
+}
+.article img{
+    max-width:80%;
+    margin-right:auto;
+    margin-left: auto;
+    height: 200px;
+}
+
+/**************************************************
+RECETAS - Galeria
+***************************************************/
+.titulo-recetas{
+    margin-left: 2rem;
+}
+.container-galery{
+    max-width: 95%;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);  
+}
+.receta{
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.45); 
+}
+.receta img{
+    max-width: 100%;
+}
+.receta h2{
+    text-align: center;
+}
+.receta1{
+    grid-column: 1;
+    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.receta2{
+    max-height: 100%;
+    grid-column: 2;
+    grid-row: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.receta3{
+    grid-column: 3;
+    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.receta4{  
+    grid-column: 1;
+    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.receta5{
+    grid-column: 3;
+    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.receta6{
+    grid-column: 1;
+    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.receta7{
+    max-height: 100%;
+    grid-column: 2;
+    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.receta8{
+    grid-column: 3;
+    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.receta9{
+    grid-column: 1;
+    grid-row: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.receta10{
+    grid-column: 3;
+    grid-row: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/********************************************** 
+                Quiénes somos
+***********************************************/
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 3.5rem;
+}
+.encabezado p{
+    font-size: 1.1rem;
+}
+.container__presentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 90%;
+    padding: 4rem;
+    background-color: #e29578;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+.presentation-img{
+    max-width: 30%;
+    margin: 1rem;
+    }
+
+.presentation__title{
+    text-align: center;
+    color: aliceblue;
+}
+.presentation__text{
+    max-width: 90%;
+    text-align: justify;
+    color: aliceblue;
+}
+
+/*********** Formulario*****************/
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: auto;
+}
+.container-form p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 45%;
+}
+.form input{
+    border-bottom: 1px solid #a6c7b6;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    margin: 1rem;
+    padding: 0.4rem;
+}
+.input-radio{
+    display: flex;
+    justify-content: center;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 0.8rem;
+    border: none;
+    border-radius: 15px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.button-reset{
+    background-color: #e29578;
+}
+.button-send{
+    background-color: #a6c7b6;
+}
+
+/**************************************************
+                    Descargables
+***************************************************/
+.container-descargables{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.descargables{
+    display: flex;    
+    align-items: center;
+}
+.descargables img{
+    max-width:50%;
+}
+.item p{
+    text-align: justify;
+    margin: 0rem 2rem;
+}
+.item h2{
+text-align: center;
+}
+.item a p{
+    text-align: center;
+}
+
+/**************************************************
+                        Footer
+**************************************************/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+
+    background-color: #a6c7b6;
+    text-align: center;
+    color:#fff;
+    }
