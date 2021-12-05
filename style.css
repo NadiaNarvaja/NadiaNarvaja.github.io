@@ -2,7 +2,7 @@
 
 /* Colores:
 Coral: #e29578
-Verde: #e98786
+Verde: #a6c7b6
 */
 *{
     margin: 0;
@@ -14,8 +14,7 @@ Verde: #e98786
 /*************************************************
                         Index
 *************************************************/
-
-/* Banner antes de boostrap
+/* Banner */
 .banner{
     display: flex;
     justify-content: center;
@@ -23,9 +22,9 @@ Verde: #e98786
 .banner img{ 
     padding: 1rem;
     }
-*/
 
- /* Menu antes */
+
+ /* Menu */
 
 ul {
     list-style: none;
