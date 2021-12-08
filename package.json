@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/NadiaNarvaja/basadaenplantas-Narvaja#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
   },
-  "devDependencies": {},
   "description": ""
 }
